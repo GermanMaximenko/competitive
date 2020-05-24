@@ -8,4 +8,8 @@ deq.appendleft(2)
 deq.append(3)
 
 for el in deq:
-    print(el) # 2 1 3
+    print(el)  # 2 1 3
+
+deq = deque('abracadabra')
+for el in deq:
+    print(el)  # a b r a c a d a b r a
