@@ -50,8 +50,16 @@ phrases = {
 #     print(*el)
 
 # --------------- second ---------------
-for el in itertools.product(*dict.values()):
-    print(el)
+# for el in itertools.product(*phrases.values()):
+#     print(el)
+#
+# for el in itertools.product(*phrases.values()):
+#     print(dict(zip(phrases.keys(), el)))
 
-# написать чтобы получились дикты и  посмотреть cartesian еще как реализуют
-# после решать задачи на стандартную библиотеку
+# somelists = [
+#    [1, 2, 3],
+#    ['a', 'b'],
+#    [4, 5]
+# ]
+#
+# print(*itertools.product(*somelists))
