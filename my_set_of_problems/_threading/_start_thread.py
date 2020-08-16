@@ -3,7 +3,6 @@ import time
 
 
 def handler(started=0, finished=0):
-    print(f'INSIDE HANDLER  {threading.get_ident()}')
     sum = 0
     for i in range(started, finished):
         sum += i
